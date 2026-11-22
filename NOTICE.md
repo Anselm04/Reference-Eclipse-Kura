@@ -1,0 +1,210 @@
+# Notices for Eclipse Kura
+
+This content is produced and maintained by the Eclipse Kura project.
+
+* Project home: https://projects.eclipse.org/projects/iot.kura
+
+## Trademarks
+
+Eclipse Kura, and Kura are trademarks of the Eclipse Foundation.
+
+## Copyright
+
+All content is the property of the respective authors or their employers. For
+more information regarding authorship of content, please consult the listed
+source code repository logs.
+
+## Declared Project Licenses
+
+This program and the accompanying materials are made available under the terms
+of the Eclipse Public License v2.0 which is available at
+https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.html.
+
+SPDX-License-Identifier: EPL-2.0
+
+## Source Code
+
+The project maintains the following source code repositories:
+
+* https://github.com/eclipse/kura
+* https://github.com/eclipse/kura-apps
+
+## Third-party Content
+
+This project leverages the following third party content.
+
+### Maven Dependencies
+
+* maven/mavencentral/com.eclipsesource.minimal-json/minimal-json/0.9.5, MIT, approved, CQ10061
+* maven/mavencentral/com.github.docker-java/docker-java-api/3.5.3, Apache-2.0, approved, #22668
+* maven/mavencentral/com.github.docker-java/docker-java-core/3.5.3, Apache-2.0, approved, #22665
+* maven/mavencentral/com.github.docker-java/docker-java-transport-httpclient5/3.5.3, Apache-2.0, approved, #22669
+* maven/mavencentral/com.github.docker-java/docker-java-transport/3.5.3, Apache-2.0, approved, #22667
+* maven/mavencentral/com.github.docker-java/docker-java/3.5.3, Apache-2.0, approved, #22666
+* maven/mavencentral/com.google.code.gson/gson/2.12.1, Apache-2.0, approved, clearlydefined
+* maven/mavencentral/com.google.guava/guava/32.1.1-jre, Apache-2.0 AND CC0-1.0 AND LicenseRef-Public-Domain, approved, #9229
+* maven/mavencentral/com.google.guava/failureaccess/1.0.1, Apache-2.0, approved, CQ22654
+* maven/mavencentral/com.google.protobuf/protobuf-java/4.30.2, BSD-3-Clause, approved, clearlydefined
+* maven/mavencentral/com.h2database/h2/2.4.240, EPL-1.0 AND MPL-2.0 AND LGPL-2.1-or-later AND BSD-3-Clause AND LicenseRef-Public-Domain, approved, #23567
+* maven/mavencentral/com.sun.xml.bind/jaxb-osgi/4.0.2, BSD-3-Clause, approved, ee4j.jaxb-impl
+* maven/mavencentral/commons-codec/commons-codec/1.18.0, Apache-2.0 AND (Apache-2.0 AND BSD-3-Clause), approved, #19214
+* maven/mavencentral/org.apache.commons/commons-fileupload2-core/2.0.0-M4, Apache-2.0, approved, #15738
+* maven/mavencentral/org.apache.commons/commons-fileupload2-jakarta-servlet5/2.0.0-M4, Apache-2.0, approved, #15737
+* maven/mavencentral/commons-io/commons-io/2.19.0, Apache-2.0, approved, #20657
+* maven/mavencentral/commons-net/commons-net/3.8.0, Apache-2.0, approved, clearlydefined
+* maven/mavencentral/io.netty/netty-buffer/4.1.139.Final, Apache-2.0, approved, CQ21842
+* maven/mavencentral/io.netty/netty-codec-http/4.1.139.Final, Apache-2.0 AND BSD-3-Clause AND MIT, approved, CQ20926
+* maven/mavencentral/io.netty/netty-codec-mqtt/4.1.139.Final, Apache-2.0 OR LicenseRef-Public-Domain OR BSD-2-Clause OR MIT, approved, CQ15280
+* maven/mavencentral/io.netty/netty-codec/4.1.139.Final, Apache-2.0 AND BSD-3-Clause AND MIT, approved, CQ20926
+* maven/mavencentral/io.netty/netty-common/4.1.139.Final, Apache-2.0 AND MIT AND CC0-1.0, approved, CQ21843
+* maven/mavencentral/io.netty/netty-handler/4.1.139.Final, Apache-2.0 AND BSD-3-Clause AND MIT, approved, CQ20926
+* maven/mavencentral/io.netty/netty-resolver/4.1.139.Final, Apache-2.0 AND BSD-3-Clause AND MIT, approved, CQ20926
+* maven/mavencentral/io.netty/netty-transport-classes-epoll/4.1.139.Final, Apache-2.0, approved, #6366
+* maven/mavencentral/io.netty/netty-transport-classes-kqueue/4.1.139.Final, Apache-2.0, approved, #4107
+* maven/mavencentral/io.netty/netty-transport-native-epoll/4.1.139.Final, Apache-2.0 AND BSD-3-Clause AND MIT, approved, CQ20926
+* maven/mavencentral/io.netty/netty-transport-native-kqueue/4.1.139.Final, Apache-2.0 AND BSD-3-Clause AND MIT, approved, CQ20926
+* maven/mavencentral/io.netty/netty-transport-native-unix-common/4.1.139.Final, Apache-2.0 AND BSD-3-Clause AND MIT, approved, CQ20926
+* maven/mavencentral/io.netty/netty-transport/4.1.139.Final, Apache-2.0 AND BSD-3-Clause AND MIT, approved, CQ20926
+* maven/mavencentral/io.netty/netty-codec-socks/4.1.139.Final, Apache-2.0 AND BSD-3-Clause AND MIT, approved, CQ20926
+* maven/mavencentral/io.netty/netty-handler-proxy/4.1.139.Final, Apache-2.0 AND BSD-3-Clause AND MIT, approved, CQ20926
+* maven/mavencentral/jakarta.activation/jakarta.activation-api/2.1.2, EPL-2.0 OR BSD-3-Clause OR GPL-2.0-only with Classpath-exception-2.0, approved, ee4j.jaf
+* maven/mavencentral/jakarta.xml.bind/jakarta.xml.bind-api/4.0.2, BSD-3-Clause, approved, ee4j.jaxb
+* maven/mavencentral/jakarta.xml.soap/jakarta.xml.soap-api/3.0.2, BSD-3-Clause, approved, ee4j.jaxws
+* maven/mavencentral/jakarta.xml.ws/jakarta.xml.ws-api/4.0.2, BSD-3-Clause, approved, ee4j.jaxws
+* maven/mavencentral/net.java.dev.jna/jna/5.17.0, Apache-2.0 AND LGPL-2.1-or-later, approved, #20112
+* maven/mavencentral/org.apache.commons/commons-compress/1.27.1, Apache-2.0 AND (Apache-2.0 AND BSD-3-Clause), approved, #17651
+* maven/mavencentral/org.apache.commons/commons-csv/1.4, Apache-2.0, approved, clearlydefined
+* maven/mavencentral/org.apache.commons/commons-exec/1.3, Apache-2.0, approved, clearlydefined
+* maven/mavencentral/org.apache.commons/commons-lang3/3.19.0, Apache-2.0, approved, #23560
+* maven/mavencentral/org.apache.felix/org.apache.felix.dependencymanager/3.0.0, Apache-2.0, approved, clearlydefined
+* maven/mavencentral/org.apache.felix/org.apache.felix.deploymentadmin/0.9.5, Apache-2.0, approved, clearlydefined
+* maven/mavencentral/org.apache.felix/org.apache.felix.gogo.shell/1.1.4, Apache-2.0, approved, #17670
+* maven/mavencentral/org.apache.httpcomponents.core5/httpcore5-h2/5.4.3, Apache-2.0, approved, #27052
+* maven/mavencentral/org.apache.httpcomponents.client5/httpclient5/5.6.4, Apache-2.0 AND MPL-2.0, approved, #28182
+* maven/mavencentral/org.apache.httpcomponents.core5/httpcore5/5.4.3, Apache-2.0, approved, #29518
+* maven/mavencentral/org.apache.logging.log4j/log4j-api/2.25.5, Apache-2.0, approved, #21940
+* maven/mavencentral/org.apache.logging.log4j/log4j-core/2.25.5, Apache-2.0 AND (Apache-2.0 AND LGPL-2.0-or-later), approved, #21939
+* maven/mavencentral/org.apache.logging.log4j/log4j-slf4j2-impl/2.25.5, Apache-2.0, approved, #21938
+* maven/mavencentral/org.bouncycastle/bcpg-jdk18on/1.86, MIT AND Apache-2.0, approved, #31043
+* maven/mavencentral/org.bouncycastle/bcpkix-jdk18on/1.86, MIT, approved, #31037
+* maven/mavencentral/org.bouncycastle/bcprov-jdk18on/1.86, MIT AND CC0-1.0, approved, #31038
+* maven/mavencentral/org.bouncycastle/bctls-jdk18on/1.86, MIT, approved, #31419
+* maven/mavencentral/org.bouncycastle/bcutil-jdk18on/1.86, MIT, approved, #31042
+* maven/mavencentral/org.glassfish.hk2/osgi-resource-locator/1.0.3, EPL-2.0 OR GPL-2.0-only with Classpath-exception-2.0, approved, ee4j.glassfish
+* maven/mavencentral/org.knowhowlab.osgi/monitoradmin/1.0.3, Apache-2.0, approved, clearlydefined
+* maven/mavencentral/org.osgi/osgi.annotation/8.1.0, Apache-2.0, approved, #1985
+* maven/mavencentral/org.quartz-scheduler/quartz/2.5.0, Apache-2.0, approved, clearlydefined
+* maven/mavencentral/org.slf4j/jcl-over-slf4j/2.0.17, MIT AND Apache-2.0, approved, #11889
+* maven/mavencentral/org.slf4j/slf4j-api/2.0.17, MIT, approved, #5915
+* maven/mavencentral/org.slf4j/jul-to-slf4j/2.0.17, MIT, approved, #7698
+* maven/mavencentral/org.usb4java/libusb4java/1.3.0, MIT, approved, #3087
+* maven/mavencentral/org.usb4java/usb4java-javax/1.3.0, MIT, approved, #22528
+* maven/mavencentral/org.usb4java/usb4java/1.3.0, MIT, approved, clearlydefined
+* maven/mavencentral/org.apache.servicemix.bundles/org.apache.servicemix.bundles.c3p0/0.9.5.5_1, (LGPL-2.1-only or EPL-1.0) AND Apache-2.0, approved, #3761
+* maven/mavencentral/com.zaxxer/HikariCP/2.7.9, Apache-2.0, approved, clearlydefined
+* maven/mavencentral/org.xerial/sqlite-jdbc/3.42.0.0, Apache-2.0 AND BSD-2-Clause AND ISC AND Artistic-2.0, approved, #9089
+* maven/mavencentral/jakarta.annotation/jakarta.annotation-api/2.1.1, EPL-2.0 OR GPL-2.0-only with Classpath-exception-2.0, approved, ee4j.ca
+* maven/mavencentral/org.apache.felix/org.apache.felix.http.servlet-api/3.0.0, Apache-2.0, approved, #13345
+* maven/mavencentral/org.apache.felix/org.apache.felix.http.bridge/5.1.8, Apache-2.0, approved, #18536
+* maven/mavencentral/org.apache.felix/org.apache.felix.http.proxy/4.0.0, Apache-2.0, approved, clearlydefined
+* maven/mavencentral/org.apache.felix/org.apache.felix.http.wrappers/1.1.2, Apache-2.0, approved, clearlydefined
+* maven/mavencentral/org.eclipse.jetty/jetty-http/12.0.33, EPL-2.0 OR Apache-2.0, approved, rt.jetty
+* maven/mavencentral/org.eclipse.jetty/jetty-security/12.0.33, EPL-2.0 OR Apache-2.0, approved, rt.jetty
+* maven/mavencentral/org.eclipse.jetty/jetty-server/12.0.33, EPL-2.0 OR Apache-2.0, approved, rt.jetty
+* maven/mavencentral/org.eclipse.jetty/jetty-session/12.0.33, EPL-2.0 OR Apache-2.0, approved, rt.jetty
+* maven/mavencentral/org.eclipse.jetty/jetty-util/12.0.33, EPL-2.0 OR Apache-2.0, approved, rt.jetty
+* maven/mavencentral/org.eclipse.jetty/jetty-io/12.0.33, EPL-2.0 OR Apache-2.0, approved, rt.jetty
+* maven/mavencentral/org.eclipse.jetty.ee10/jetty-ee10-servlet/12.0.33, EPL-2.0 OR Apache-2.0, approved, rt.jetty
+* maven/mavencentral/org.osgi/org.osgi.service.http.whiteboard/1.1.1, Apache-2.0, approved, #5518
+* maven/mavencentral/org.osgi/org.osgi.service.servlet/2.0.0, Apache-2.0, approved, #5264
+* maven/mavencentral/jakarta.ws.rs/jakarta.ws.rs-api/3.1.0, EPL-2.0 OR GPL-2.0-only with Classpath-exception-2.0, approved, ee4j.rest
+* maven/mavencentral/org.osgi/org.osgi.service.jakartars/2.0.0, Apache-2.0, approved, #4692
+* maven/mavencentral/org.eclipse.osgi-technology.rest/org.eclipse.osgitech.rest/1.2.3, Apache-2.0, approved, technology.osgi-technology
+* maven/mavencentral/org.eclipse.osgi-technology.rest/org.eclipse.osgitech.rest.sse/1.2.3, Apache-2.0, approved, technology.osgi-technology
+* maven/mavencentral/org.eclipse.osgi-technology.rest/org.eclipse.osgitech.rest.servlet.whiteboard/1.2.3, Apache-2.0, approved, technology.osgi-technology
+* maven/mavencentral/org.apache.aries.spifly/org.apache.aries.spifly.dynamic.bundle/1.3.7, Apache-2.0, approved, #15243
+* maven/mavencentral/org.ow2.asm/asm/9.7.1, BSD-3-Clause, approved, #16464
+* maven/mavencentral/org.ow2.asm/asm-commons/9.7.1, BSD-3-Clause, approved, #16465
+* maven/mavencentral/org.ow2.asm/asm-tree/9.7.1, BSD-3-Clause, approved, #16466
+* maven/mavencentral/org.ow2.asm/asm-util/9.7.1, BSD-3-Clause, approved, #16467
+* maven/mavencentral/org.ow2.asm/asm-analysis/9.7.1, BSD-3-Clause, approved, #16463
+* maven/mavencentral/org.glassfish.hk2/hk2-api/3.1.1, EPL-2.0 OR GPL-2.0-only with Classpath-exception-2.0, approved, ee4j.glassfish
+* maven/mavencentral/org.glassfish.hk2.external/aopalliance-repackaged/3.1.1, EPL-2.0 OR GPL-2.0-only with Classpath-exception-2.0, approved, ee4j.glassfish
+* maven/mavencentral/org.glassfish.hk2/hk2-locator/3.1.1, EPL-2.0 OR GPL-2.0-only with Classpath-exception-2.0, approved, ee4j.glassfish
+* maven/mavencentral/org.glassfish.hk2/hk2-utils/3.1.1, EPL-2.0 OR GPL-2.0-only with Classpath-exception-2.0, approved, ee4j.glassfish
+* maven/mavencentral/org.glassfish.jersey.inject/jersey-hk2/3.1.11, EPL-2.0 OR GPL-2.0-only with Classpath-exception-2.0, approved, ee4j.jersey
+* maven/mavencentral/org.glassfish.jersey.containers/jersey-container-servlet/3.1.11, EPL-2.0 OR GPL-2.0-only with Classpath-exception-2.0, approved, ee4j.jersey
+* maven/mavencentral/org.glassfish.jersey.containers/jersey-container-servlet-core/3.1.11, EPL-2.0 OR GPL-2.0-only with Classpath-exception-2.0, approved, ee4j.jersey
+* maven/mavencentral/org.glassfish.jersey.core/jersey-client/3.1.11, EPL-2.0 OR GPL-2.0-only with Classpath-exception-2.0, approved, ee4j.jersey
+* maven/mavencentral/org.glassfish.jersey.core/jersey-common/3.1.11, EPL-2.0 OR GPL-2.0-only with Classpath-exception-2.0, approved, ee4j.jersey
+* maven/mavencentral/org.glassfish.jersey.core/jersey-server/3.1.11, EPL-2.0 OR GPL-2.0-only with Classpath-exception-2.0, approved, ee4j.jersey
+* maven/mavencentral/org.glassfish.jersey.ext/jersey-entity-filtering/3.1.11, EPL-2.0 OR GPL-2.0-only with Classpath-exception-2.0, approved, ee4j.jersey
+* maven/mavencentral/org.glassfish.jersey.media/jersey-media-jaxb/3.1.11, EPL-2.0 OR GPL-2.0-only with Classpath-exception-2.0, approved, ee4j.jersey
+* maven/mavencentral/org.glassfish.jersey.media/jersey-media-sse/3.1.11, EPL-2.0 OR GPL-2.0-only with Classpath-exception-2.0, approved, ee4j.jersey
+* maven/mavencentral/org.glassfish.jersey.media/jersey-media-multipart/3.1.11, EPL-2.0 OR GPL-2.0-only with Classpath-exception-2.0, approved, ee4j.jersey
+* maven/mavencentral/jakarta.inject/jakarta.inject-api/2.0.1, Apache-2.0, approved, ee4j.cdi
+* maven/mavencentral/jakarta.validation/jakarta.validation-api/3.0.2, Apache-2.0, approved, ee4j.validation
+* maven/mavencentral/org.javassist/javassist/3.30.2-GA, Apache-2.0 AND LGPL-2.1-or-later AND MPL-1.1, approved, #12108
+* maven/mavencentral/org.jvnet.mimepull/mimepull/1.10.0, BSD-3-Clause, approved, #2699
+* maven/mavencentral/org.apache.felix/org.apache.felix.gogo.command/1.1.2, Apache-2.0, approved, #17675
+* maven/mavencentral/org.apache.felix/org.apache.felix.gogo.runtime/1.1.6, Apache-2.0 AND MIT, approved, CQ22929
+* maven/mavencentral/org.apache.felix/org.apache.felix.scr/2.2.12, Apache-2.0, approved, #15367
+* maven/mavencentral/org.eclipse.paho/org.eclipse.paho.client.mqttv3/1.2.5, EPL-2.0 OR BSD-3-Clause, approved, iot.paho
+* maven/mavencentral/org.eclipse.platform/org.eclipse.core.contenttype/3.9.500, EPL-2.0, approved, eclipse.platform
+* maven/mavencentral/org.eclipse.platform/org.eclipse.core.jobs/3.15.400, EPL-2.0, approved, eclipse.platform
+* maven/mavencentral/org.eclipse.platform/org.eclipse.core.runtime/3.31.100, EPL-2.0, approved, eclipse.platform
+* maven/mavencentral/org.eclipse.platform/org.eclipse.equinox.app/1.7.200, EPL-2.0, approved, eclipse.platform
+* maven/mavencentral/org.eclipse.platform/org.eclipse.equinox.cm/1.6.100, EPL-2.0, approved, eclipse.platform
+* maven/mavencentral/org.eclipse.platform/org.eclipse.equinox.common/3.19.100, EPL-2.0, approved, eclipse.platform
+* maven/mavencentral/org.eclipse.platform/org.eclipse.equinox.console/1.4.800, EPL-2.0, approved, eclipse.platform
+* maven/mavencentral/org.eclipse.platform/org.eclipse.equinox.event/1.7.100, EPL-2.0, approved, eclipse.platform
+* maven/mavencentral/org.eclipse.platform/org.eclipse.equinox.io/1.1.300, EPL-2.0, approved, eclipse.platform
+* maven/mavencentral/org.eclipse.platform/org.eclipse.equinox.launcher/1.6.900, EPL-2.0, approved, eclipse.platform
+* maven/mavencentral/org.eclipse.platform/org.eclipse.equinox.metatype/1.6.600, EPL-2.0, approved, eclipse.platform
+* maven/mavencentral/org.eclipse.platform/org.eclipse.equinox.preferences/3.11.100, EPL-2.0, approved, eclipse.platform
+* maven/mavencentral/org.eclipse.platform/org.eclipse.equinox.registry/3.12.100, EPL-2.0, approved, eclipse.platform
+* maven/mavencentral/org.eclipse.platform/org.eclipse.equinox.util/1.1.300, EPL-2.0, approved, eclipse.platform
+* maven/mavencentral/org.eclipse.platform/org.eclipse.equinox.wireadmin/1.0.800, EPL-2.0, approved, eclipse.platform
+* maven/mavencentral/org.eclipse.platform/org.eclipse.osgi.util/3.7.300, EPL-2.0, approved, eclipse.platform
+* maven/mavencentral/org.eclipse.platform/org.eclipse.osgi/3.21.0, EPL-2.0, approved, eclipse.platform
+* maven/mavencentral/org.osgi/org.osgi.service.cm/1.6.1, Apache-2.0, approved, #18262
+* maven/mavencentral/org.osgi/org.osgi.service.component/1.5.1, Apache-2.0, approved, #5389
+* maven/mavencentral/org.osgi/org.osgi.service.coordinator/1.0.2, Apache-1.1 AND Apache-2.0, approved, #17662
+* maven/mavencentral/org.osgi/org.osgi.service.device/1.1.1, Apache-2.0, approved, #15335
+* maven/mavencentral/org.osgi/org.osgi.service.event/1.4.1, Apache-2.0, approved, #15500
+* maven/mavencentral/org.osgi/org.osgi.service.log.stream/1.0.0, Apache-2.0, approved, #2442
+* maven/mavencentral/org.osgi/org.osgi.service.metatype/1.4.1, Apache-2.0, approved, #15382
+* maven/mavencentral/org.osgi/org.osgi.service.prefs/1.1.2, Apache-2.0, approved, #15379
+* maven/mavencentral/org.osgi/org.osgi.service.provisioning/1.2.0, Apache-1.1 AND Apache-2.0, approved, #17681
+* maven/mavencentral/org.osgi/org.osgi.service.upnp/1.2.1, Apache-2.0, approved, #15268
+* maven/mavencentral/org.osgi/org.osgi.service.useradmin/1.1.1, Apache-2.0, approved, #15323
+* maven/mavencentral/org.osgi/org.osgi.service.wireadmin/1.0.2, Apache-2.0, approved, #15398
+* maven/mavencentral/org.osgi/org.osgi.util.function/1.2.0, Apache-2.0, approved, #15222
+* maven/mavencentral/org.osgi/org.osgi.util.measurement/1.0.2, Apache-2.0, approved, #17679
+* maven/mavencentral/org.osgi/org.osgi.util.position/1.0.1, Apache-1.1 AND Apache-2.0, approved, #17683
+* maven/mavencentral/org.osgi/org.osgi.util.promise/1.3.0, Apache-2.0, approved, #5266
+* maven/mavencentral/org.osgi/org.osgi.util.pushstream/1.1.0, Apache-2.0, approved, #6026
+* maven/mavencentral/org.osgi/org.osgi.util.xml/1.0.2, Apache-2.0, approved, #15377
+* maven/mavencentral/com.fasterxml.jackson.core/jackson-databind/2.21.8, Apache-2.0, approved, #25591
+* maven/mavencentral/com.fasterxml.jackson.core/jackson-annotations/2.21, Apache-2.0, approved, #25587
+* maven/mavencentral/com.fasterxml.jackson.core/jackson-core/2.21.8, Apache-2.0 AND MIT, approved, #25590
+* maven/mavencentral/tools.jackson.core/jackson-core/3.1.7, Apache-2.0 AND MIT, approved, #26415
+* maven/mavencentral/com.auth0/java-jwt/4.6.0, MIT, approved, #29896
+
+### Additional Dependencies
+
+* maven/mavencentral/javax.usb/usb-api/1.0.2, MIT, approved, CQ7834
+* com.codeminders.hidapi natives 1.1, New BSD License, approved, CQ7871
+* soda.dk.comm, EPL-1.0, approved, CQ8156
+* org.apache.felix.useradmin_1.0.4.k1, Apache-2.0, approved, CQ23078
+* com.codeminders.hidapi 1.1, New BSD License, approved, CQ7833
+* org.moka7 1.0.2, EPL-1.0, approved, CQ12777
+
+## Cryptography
+
+Content may contain encryption software. The country in which you are currently
+may have restrictions on the import, possession, and use, and/or re-export to
+another country, of encryption software. BEFORE using any encryption software,
+please check the country's laws, regulations and policies concerning the import,
+possession, or use, and re-export of encryption software, to see if this is
+permitted.

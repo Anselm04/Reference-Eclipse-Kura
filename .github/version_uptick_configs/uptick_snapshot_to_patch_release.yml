@@ -1,0 +1,30 @@
+---
+exclusions:
+  - "**/.git/**/*"
+  - "**/.github/**/*"
+  - "**/target/**/*"
+  - "**/RELEASE_INFO/**/*"
+  - "**/.settings/**/*"
+  - "**/.classpath"
+  - "**/.project"
+
+tasks:
+  - selector:
+      or:
+        - and:
+          - group_id: "org.eclipse.kura"
+          - artifact_id: "distrib"
+        - and:
+          - group_id: "org.eclipse.kura"
+          - artifact_id: "target-platform"
+        - and:
+          - group_id: "org.eclipse.kura"
+          - artifact_id: "examples"
+        - and:
+          - group_id: "org.eclipse.kura"
+          - artifact_id: "kura"
+    actions:
+      - print
+      - transform_version:
+        - snapshot: remove
+

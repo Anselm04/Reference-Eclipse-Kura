@@ -1,0 +1,32 @@
+# Security Policy
+
+This project implements the Eclipse Foundation Security Policy
+
+* https://www.eclipse.org/security
+
+## Supported Versions
+
+The Eclipse Kura project provides security updates for the last two major releases.
+The fixes are applied to the latest minor release available for the given major and will produce a new service release.
+
+| Version | Last Release | Supported          | 
+| ------- | ------------ | ------------------ | 
+| 5.6.x   | 2025-12-09   | :white_check_mark: |
+| 5.5.x   | 2024-07-08   | :x:                |
+| 5.4.x   | 2023-11-30   | :x:                |
+| 5.3.x   | 2023-07-07   | :x:                |
+| 5.2.x   | 2023-05-12   | :x:                |
+| 5.1.x   | 2022-06-30   | :x:                | 
+| 5.0.x   | 2021-12-22   | :x:                | 
+| 4.1.x   | 2021-12-22   | :white_check_mark: | 
+| < 4.0.0 | 2018-10-19   | :x:                | 
+
+## Reporting a Vulnerability
+
+If you think you have found a vulnerability in Eclipse Kura, please report it to us through coordinated disclosure.
+
+**Please do not report security vulnerabilities through public issues, discussions, or change requests.**
+
+Instead, report it creating a [confidential issue](https://gitlab.eclipse.org/security/vulnerability-reports/-/issues/new?issuable_template=new_vulnerability) in the Eclipse Foundation Vulnerability Reporting Tracker
+
+You can find more information about reporting and disclosure at the [Eclipse Foundation Security page](https://www.eclipse.org/security/).

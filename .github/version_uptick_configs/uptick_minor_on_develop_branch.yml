@@ -1,0 +1,21 @@
+---
+exclusions:
+  - "**/.git/**/*"
+  - "**/.github/**/*"
+  - "**/target/**/*"
+  - "**/RELEASE_INFO/**/*"
+  - "**/.settings/**/*"
+  - "**/.classpath"
+  - "**/.project"
+
+tasks:
+  - selector:
+      and:
+        - snapshot
+        - not:
+            artifact_id: "moquette-broker"
+    actions:
+      - print
+      - transform_version:
+        - add_minor: 1
+        - set_patch: 0

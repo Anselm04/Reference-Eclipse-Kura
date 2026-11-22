@@ -1,0 +1,4 @@
+Upstream: https://github.com/eclipse-kura/kura
+Upstream branch: develop
+Upstream commit: bf9c95a11a03f977fdeb2380dfc5c35d973d7e02
+Source imported with upstream Git ancestry. Upstream Actions workflows excluded due to GitHub token permissions.

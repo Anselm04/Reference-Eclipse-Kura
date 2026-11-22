@@ -1,0 +1,50 @@
+# OS generated files
+.DS_Store*
+*~
+
+# Build output
+target/
+classes
+bin/
+manifests
+gwt-unitCache
+.gwt
+*.cache.*
+www-test
+
+# bnd / bndtools
+generated/
+bin_test/
+
+# Eclipse / PDE
+.classpath
+.project
+.settings
+.wtpmodules
+.metadata
+.recommenders
+.launch
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+javaConfig.json
+.vscode
+
+# Code analysis
+.sonar
+.sonarlint
+
+# Local runtime / misc
+kura/data
+kura/snapshots
+maven.deps
+DEPENDENCIES
+.java-version
+.worktrees
+.claude/settings.local.json
+
+# flatten-maven-plugin output (BOM)
+.flattened-pom.xml

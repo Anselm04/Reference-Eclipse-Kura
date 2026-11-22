@@ -1,0 +1,44 @@
+name: Import Eclipse Kura upstream source
+on:
+  push:
+    paths:
+      - '.github/workflows/import-upstream.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: upstream-source-import
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Import Eclipse Kura with Git history and notices
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote add upstream https://github.com/eclipse-kura/kura.git
+          git fetch upstream develop
+          UPSTREAM_SHA="$(git rev-parse FETCH_HEAD)"
+          cp .github/workflows/import-upstream.yml /tmp/trillionai-import-workflow.yml
+          git merge --allow-unrelated-histories -s ours --no-edit "$UPSTREAM_SHA"
+          git rm -rf --ignore-unmatch .
+          git checkout "$UPSTREAM_SHA" -- .
+          git rm -rf --ignore-unmatch .github/workflows
+          mkdir -p .github/workflows .trillionai-reference
+          cp /tmp/trillionai-import-workflow.yml .github/workflows/import-upstream.yml
+          printf 'Upstream: https://github.com/eclipse-kura/kura\nUpstream branch: develop\nUpstream commit: %s\nSource imported with upstream Git ancestry. Upstream Actions workflows excluded due to GitHub token permissions.\n' "$UPSTREAM_SHA" > .trillionai-reference/SOURCE.txt
+          test -f LICENSE
+          test -f NOTICE.md
+          test -d kura
+          test -f pom.xml
+          git add -A
+          git commit -m "docs: import Eclipse Kura upstream source at $UPSTREAM_SHA"
+          git push origin HEAD:main
